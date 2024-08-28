@@ -1,7 +1,7 @@
 # React-Next-Notes
-1- [Gestion del estado en React a traves de la url](#guía-de-estudio-gestión-del-estado-en-aplicaciones-react-a-través-de-la-url)
+1- [Gestion del estado en React a traves de la url](#gestión-del-estado-en-aplicaciones-react-a-través-de-la-url)
 
-# Guía de Estudio: Gestión del Estado en Aplicaciones React a través de la URL
+# Gestión del Estado en Aplicaciones React a través de la URL
 
 ## 1. Introducción a la Gestión de Estado Basada en la URL
 
