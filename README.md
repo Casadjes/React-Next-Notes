@@ -1,4 +1,5 @@
 # React-Next-Notes
+1- [Gestion del estado en React a traves de la url](#guía-de-estudio-gestión-del-estado-en-aplicaciones-react-a-través-de-la-url)
 
 # Guía de Estudio: Gestión del Estado en Aplicaciones React a través de la URL
 
