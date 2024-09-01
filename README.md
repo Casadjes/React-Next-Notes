@@ -80,8 +80,6 @@ function ProductPage() {
 Voy a ajustar el reto de 90 días para incluir los aspectos de bases, optimización, testing y código limpio en el aprendizaje de React, Astro, y TypeScript.
 # Reto de 101 dias para aprender todo lo que necesito
 
-Aquí tienes el plan ajustado para incluir ES6+ y TypeScript al principio, seguido del resto del contenido:
-
 ### **Semana 1-2: Fundamentos de ES6+ y TypeScript**
 - **Día 1-3:** Introducción a ES6+
   - **Explicación:** Aprende las nuevas características de ES6 y versiones posteriores, incluyendo let/const, arrow functions, destructuring, spread/rest operators, y módulos ES6.
