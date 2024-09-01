@@ -1,7 +1,7 @@
 # React-Next-Notes
 1- [Gestion del estado en React a traves de la url](#gestión-del-estado-en-aplicaciones-react-a-través-de-la-url)
 
-2- [Reto de 90 Dias](#reto-de-90-dias-para-aprender-todo-lo-que-necesito)
+2- [Reto de 101 Dias](#reto-de-101-dias-para-aprender-todo-lo-que-necesito)
 
 
 # Gestión del Estado en Aplicaciones React a través de la URL
@@ -78,65 +78,117 @@ function ProductPage() {
 **Recuerda:** La gestión de estado basada en la URL es una técnica poderosa que puede simplificar tus aplicaciones React mientras proporciona beneficios adicionales en términos de experiencia de usuario y SEO.
 
 Voy a ajustar el reto de 90 días para incluir los aspectos de bases, optimización, testing y código limpio en el aprendizaje de React, Astro, y TypeScript.
-# Reto de 90 dias para aprender todo lo que necesito
+# Reto de 101 dias para aprender todo lo que necesito
 
-### **Semana 1-2: Fundamentos de JavaScript y TypeScript**
-- **Día 1-2:** Repaso de ES6+ (arrow functions, destructuring, spread/rest, etc.) con un enfoque en la escritura de código limpio.
-- **Día 3-4:** Introducción a TypeScript: Tipos básicos, interfaces, y funciones. **(Aplicación de principios SOLID en la escritura de tipos e interfaces).**
-- **Día 5-6:** Avanzando en TypeScript: Generics, Unions, Intersection Types. **(Refactorización para código más limpio y reusable).**
-- **Día 7:** Pruebas iniciales con TypeScript: Instalación y configuración de Jest para pruebas básicas.
+Aquí tienes el plan ajustado para incluir ES6+ y TypeScript al principio, seguido del resto del contenido:
 
-### **Semana 3-4: Conceptos Básicos de React**
-- **Día 8-9:** Instalación y configuración de un proyecto React con TypeScript. **(Enfoque en configuración óptima).**
-- **Día 10-11:** Componentes funcionales y JSX. **(Código limpio y separaciones de preocupaciones).**
-- **Día 12-13:** Props y State en React. **(Enfoque en la gestión eficiente del estado).**
-- **Día 14:** Testing con Jest y React Testing Library: Primeros test para componentes simples.
-- **Día 15-16:** Ciclo de vida de los componentes y uso de hooks. **(Optimización de efectos y manejo de side effects).**
-- **Día 17-18:** Eventos y manejo de formularios en React. **(Validaciones eficientes y limpieza de código).**
-- **Día 19-21:** Renderizado condicional y manejo de listas. **(Optimización de renderizado y manejo de keys).**
+### **Semana 1-2: Fundamentos de ES6+ y TypeScript**
+- **Día 1-3:** Introducción a ES6+
+  - **Explicación:** Aprende las nuevas características de ES6 y versiones posteriores, incluyendo let/const, arrow functions, destructuring, spread/rest operators, y módulos ES6.
+
+- **Día 4-6:** Fundamentos de TypeScript
+  - **Explicación:** Familiarízate con TypeScript, tipos básicos, interfaces, y clases. Aprende a configurar un proyecto TypeScript y cómo integrarlo con tus proyectos JavaScript.
+
+- **Día 7-9:** Tipado Avanzado en TypeScript
+  - **Explicación:** Explora tipos avanzados en TypeScript, como tipos genéricos, enums, y tipos condicionales.
+
+- **Día 10-12:** Integración de TypeScript con ES6+
+  - **Explicación:** Aprende cómo TypeScript se integra con las características de ES6+, aplicando tipado estático a funciones, clases y módulos.
+
+### **Semana 3-4: Fundamentos de React**
+- **Día 13-15:** Instalación y configuración de React.
+  - **Explicación:** Familiarízate con la configuración de un proyecto React utilizando Create React App o Vite, y comprende la estructura básica del proyecto.
+
+- **Día 16-18:** Introducción a JSX y componentes.
+  - **Explicación:** Aprende cómo React utiliza JSX para renderizar la UI y cómo crear componentes reutilizables para construir interfaces.
+
+- **Día 19-21:** Estado y Props.
+  - **Explicación:** Comprende cómo manejar datos dentro de un componente y cómo pasar información entre componentes mediante Props.
+
+- **Día 22-24:** Manejo de eventos.
+  - **Explicación:** Aprende a capturar eventos del usuario y a manejar interacciones en tu aplicación React.
+
+- **Día 25-27:** Ciclo de vida de componentes y hooks fundamentales (useState, useEffect).
+  - **Explicación:** Descubre las fases del ciclo de vida de los componentes y cómo usar hooks para gestionar el estado y efectos secundarios.
 
 ### **Semana 5-6: Avanzando en React**
-- **Día 22-23:** Uso de Context API para el manejo global de estados. **(Buenas prácticas y optimización).**
-- **Día 24-25:** Hooks básicos: useState, useEffect. **(Mejores prácticas para evitar re-renderizados innecesarios).**
-- **Día 26:** Testing: Creación de pruebas unitarias para hooks y componentes que usan Context API.
-- **Día 27-28:** Hooks avanzados: useReducer, useContext, custom hooks. **(Implementación de lógica compleja de manera limpia).**
-- **Día 29-30:** Manejo de formularios avanzado con React Hook Form y validaciones optimizadas.
-- **Día 31-32:** Optimización de rendimiento en React: Memoization, React.memo, y React.lazy. **(Lazy loading y optimización de componentes pesados).**
-- **Día 33-35:** Testing: Pruebas de rendimiento y optimización con Jest y React Testing Library.
+- **Día 28-30:** Context API y manejo de estado global.
+  - **Explicación:** Aprende a gestionar el estado global en tu aplicación usando la Context API de React.
 
-### **Semana 7-8: Integrando TypeScript con React**
-- **Día 36-37:** Componentes tipados con TypeScript. **(Enfoque en tipado seguro y limpio).**
-- **Día 38-39:** Manejo de props y state con TypeScript. **(Uso de interfaces y types para mayor claridad).**
-- **Día 40:** Testing: Creación de pruebas para componentes tipados en TypeScript.
-- **Día 41-42:** Hooks y Context API en TypeScript. **(Uso de generics para un código más flexible y seguro).**
-- **Día 43-44:** Patrón Compound Components en TypeScript. **(Componentización y reutilización).**
-- **Día 45-46:** Testing: Pruebas unitarias y de integración para patrones avanzados.
-- **Día 47-49:** Pruebas unitarias y optimización de código en React y TypeScript.
+- **Día 31-33:** Introducción a React Router.
+  - **Explicación:** Implementa enrutamiento en tu aplicación para manejar múltiples páginas o vistas.
 
-### **Semana 9-10: Introducción a Astro**
-- **Día 50-51:** Instalación y configuración básica de un proyecto con Astro. **(Buenas prácticas desde el inicio).**
-- **Día 52-53:** Creación de páginas y rutas en Astro. **(Organización limpia y eficiente de rutas).**
-- **Día 54:** Testing: Verificación de rutas y estructuras en Astro.
-- **Día 55-56:** Uso de componentes de React en Astro. **(Optimización del uso de componentes en múltiples frameworks).**
-- **Día 57-58:** Estilización con Tailwind CSS en Astro. **(Mantener un CSS modular y optimizado).**
-- **Día 59-61:** Testing: Pruebas de integración en proyectos Astro.
+- **Día 34-36:** Formularios y manejo de entradas del usuario.
+  - **Explicación:** Aprende a crear y manejar formularios de manera eficiente, validando entradas de usuario.
 
-### **Semana 11-12: Desarrollo Avanzado con Astro**
-- **Día 62-63:** Integración de TypeScript en Astro. **(Tipado de componentes y optimización de código).**
-- **Día 64-65:** Optimización de imágenes y recursos en Astro. **(Uso de técnicas modernas como lazy loading).**
-- **Día 66-67:** Uso de layouts y componentes reutilizables en Astro. **(Enfoque en DRY y SOLID).**
-- **Día 68-69:** Testing: Pruebas para componentes reutilizables y layouts.
-- **Día 70-71:** Despliegue de un proyecto de Astro. **(Prácticas de despliegue eficiente y testing post-despliegue).**
-- **Día 72-73:** Revisión final de código limpio y optimización en Astro.
+- **Día 37-39:** Manejo de errores y límites de error (Error Boundaries).
+  - **Explicación:** Descubre cómo manejar errores en React para asegurar una experiencia de usuario fluida.
 
-### **Semana 13: Proyectos Integrados**
-- **Día 74-76:** Construcción de un proyecto de React con TypeScript, incluyendo optimización y testing.
-- **Día 77-79:** Construcción de un blog o sitio estático con Astro y React, enfocado en buenas prácticas y código limpio.
-- **Día 80-81:** Integración de una API externa en React y Astro. **(Testing y optimización de requests).**
+### **Semana 7-8: Integración de TypeScript en React**
+- **Día 40-42:** Migración de un proyecto React a TypeScript.
+  - **Explicación:** Aprende a integrar TypeScript en un proyecto existente, mejorando la robustez y mantenibilidad del código.
 
-### **Semana 14: Revisión y Pruebas**
-- **Día 82-84:** Revisión y refactorización del código en todos los proyectos.
-- **Día 85-87:** Pruebas de usabilidad, rendimiento, y optimización final.
-- **Día 88-90:** Publicación del proyecto final con un enfoque en mantener un código limpio, optimizado, y bien probado.
+- **Día 43-45:** Tipado avanzado en React con TypeScript.
+  - **Explicación:** Comprende cómo definir Props y estado con tipos, y utiliza TypeScript para asegurar la calidad del código.
 
-Este plan no solo te ayudará a aprender los conceptos esenciales, sino que también te preparará para escribir código limpio, optimizado y bien probado a lo largo del desarrollo de tus proyectos. ¡Adelante con tu reto!
+- **Día 46-48:** Hooks personalizados con TypeScript.
+  - **Explicación:** Crea y utiliza hooks personalizados, asegurando tipado correcto y reutilización de lógica.
+
+### **Semana 9-10: Optimización y Patrones de Diseño en React**
+- **Día 49-51:** Introducción a la optimización de rendimiento.
+  - **Explicación:** Aprende técnicas de optimización como React.memo, useMemo, y useCallback para mejorar el rendimiento de tu aplicación.
+
+- **Día 52-54:** Implementación de Lazy Loading y Suspense.
+  - **Explicación:** Mejora la experiencia del usuario implementando carga diferida de componentes y gestionando estados de carga con Suspense.
+
+- **Día 55-57:** Patrones de diseño en React (Container-Presenter, Compound Components).
+  - **Explicación:** Aprende y aplica patrones de diseño comunes en React para crear componentes más organizados y mantenibles.
+
+- **Día 58-60:** Context API avanzado y patrones de composición.
+  - **Explicación:** Explora patrones avanzados con Context API para mejorar la organización y escalabilidad de tu código.
+
+### **Semana 11-12: Estado Global y Gestión de Datos con Zustand y TanStack Query**
+- **Día 61-63:** Introducción a Zustand para manejo de estado global.
+  - **Explicación:** Aprende a utilizar Zustand para gestionar el estado global de manera simple y eficiente en React.
+
+- **Día 64-66:** Configuración y uso de TanStack Query para manejo de datos.
+  - **Explicación:** Aprende a gestionar el fetching, caching, y sincronización de datos remotos en tu aplicación con TanStack Query.
+
+- **Día 67-69:** Integración de Zustand y TanStack Query.
+  - **Explicación:** Combina el manejo de estado con fetching de datos utilizando estas dos herramientas para construir una aplicación robusta.
+
+- **Día 70-72:** Optimización de la sincronización de datos y actualización de caché.
+  - **Explicación:** Aprende a manejar la sincronización de datos en tiempo real y a optimizar la actualización de caché para mejorar la eficiencia.
+
+### **Semana 13-14: Validación y Seguridad con Zod**
+- **Día 73-75:** Introducción a Zod para validación de datos.
+  - **Explicación:** Aprende a usar Zod para validar datos en tus formularios y API, asegurando la integridad de los datos.
+
+- **Día 76-78:** Integración de Zod en formularios React.
+  - **Explicación:** Implementa Zod en formularios React para asegurar que los datos ingresados por el usuario cumplan con las reglas establecidas.
+
+- **Día 79-81:** Validación de API y manejo de errores con Zod.
+  - **Explicación:** Valida datos recibidos de APIs y maneja errores de manera efectiva para asegurar que tu aplicación maneje correctamente datos incorrectos o inesperados.
+
+### **Semana 15-17: Desarrollo Avanzado con Astro**
+- **Día 82-84:** Integración de TypeScript en Astro.
+  - **Explicación:** Usar TypeScript con Astro mejora la calidad y mantenibilidad del código, asegurando un desarrollo sin errores.
+
+- **Día 85-87:** Optimización de imágenes y recursos en Astro.
+  - **Explicación:** La optimización de recursos es clave para asegurar que tu sitio sea rápido y eficiente en cualquier dispositivo.
+
+- **Día 88-89:** Creación de componentes compartidos entre Astro y React.
+  - **Explicación:** Aprende a crear y compartir componentes entre Astro y React para maximizar la reutilización de código.
+
+- **Día 90-92:** Implementación de rutas dinámicas y estáticas en Astro.
+  - **Explicación:** Aprende a manejar rutas dinámicas y estáticas para construir aplicaciones multipágina en Astro.
+
+### **Semana 18-19: Proyecto Final y Despliegue**
+- **Día 93-95:** Planificación del proyecto final (React, TypeScript, Zustand, TanStack Query, Zod, Astro).
+  - **Explicación:** Define y estructura tu proyecto final integrando todo lo aprendido, desde el diseño hasta la funcionalidad y despliegue.
+
+- **Día 96-100:** Desarrollo del proyecto final.
+  - **Explicación:** Dedica estos días al desarrollo del proyecto final, aplicando las mejores prácticas de desarrollo, optimización, y testing.
+
+- **Día 101:** Documentación y reflexión final.
+  - **Explicación:** Documenta tu proyecto, reflexiona sobre lo aprendido y considera las áreas en las que podrías seguir mejorando.
