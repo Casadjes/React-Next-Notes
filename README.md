@@ -1,7 +1,7 @@
 # React-Next-Notes
 1- [Gestion del estado en React a traves de la url](#gestión-del-estado-en-aplicaciones-react-a-través-de-la-url)
 
-2- [Reto de 101 Dias](#reto-de-101-dias-para-aprender-todo-lo-que-necesito)
+2- [Reto de 111 Dias](#reto-de-111-dias-para-aprender-todo-lo-que-necesito)
 
 
 # Gestión del Estado en Aplicaciones React a través de la URL
@@ -77,8 +77,7 @@ function ProductPage() {
 
 **Recuerda:** La gestión de estado basada en la URL es una técnica poderosa que puede simplificar tus aplicaciones React mientras proporciona beneficios adicionales en términos de experiencia de usuario y SEO.
 
-Voy a ajustar el reto de 90 días para incluir los aspectos de bases, optimización, testing y código limpio en el aprendizaje de React, Astro, y TypeScript.
-# Reto de 101 dias para aprender todo lo que necesito
+# Reto de 111 dias para aprender todo lo que necesito
 
 ### **Semana 1-2: Fundamentos de ES6+ y TypeScript**
 - **Día 1-3:** Introducción a ES6+
@@ -168,25 +167,35 @@ Voy a ajustar el reto de 90 días para incluir los aspectos de bases, optimizaci
 - **Día 79-81:** Validación de API y manejo de errores con Zod.
   - **Explicación:** Valida datos recibidos de APIs y maneja errores de manera efectiva para asegurar que tu aplicación maneje correctamente datos incorrectos o inesperados.
 
-### **Semana 15-17: Desarrollo Avanzado con Astro**
-- **Día 82-84:** Integración de TypeScript en Astro.
+### **Semana 15-16: Testing en React**
+- **Día 82-84:** Introducción a pruebas unitarias con Jest.
+  - **Explicación:** Aprende a escribir y ejecutar pruebas unitarias en React usando Jest, cubriendo la lógica de componentes y funciones.
+
+- **Día 85-87:** Pruebas de integración con React Testing Library.
+  - **Explicación:** Utiliza React Testing Library para probar la integración de componentes y su interacción con el DOM.
+
+- **Día 88-90:** Pruebas de rendimiento y carga.
+  - **Explicación:** Implementa pruebas de rendimiento y carga para asegurar que tu aplicación maneje escenarios de alta demanda eficientemente.
+
+### **Semana 17-18: Desarrollo Avanzado con Astro**
+- **Día 91-93:** Integración de TypeScript en Astro.
   - **Explicación:** Usar TypeScript con Astro mejora la calidad y mantenibilidad del código, asegurando un desarrollo sin errores.
 
-- **Día 85-87:** Optimización de imágenes y recursos en Astro.
+- **Día 94-96:** Optimización de imágenes y recursos en Astro.
   - **Explicación:** La optimización de recursos es clave para asegurar que tu sitio sea rápido y eficiente en cualquier dispositivo.
 
-- **Día 88-89:** Creación de componentes compartidos entre Astro y React.
+- **Día 97-98:** Creación de componentes compartidos entre Astro y React.
   - **Explicación:** Aprende a crear y compartir componentes entre Astro y React para maximizar la reutilización de código.
 
-- **Día 90-92:** Implementación de rutas dinámicas y estáticas en Astro.
+- **Día 99-100:** Implementación de rutas dinámicas y estáticas en Astro.
   - **Explicación:** Aprende a manejar rutas dinámicas y estáticas para construir aplicaciones multipágina en Astro.
 
-### **Semana 18-19: Proyecto Final y Despliegue**
-- **Día 93-95:** Planificación del proyecto final (React, TypeScript, Zustand, TanStack Query, Zod, Astro).
+### **Semana 19-20: Proyecto Final y Despliegue**
+- **Día 101-103:** Planificación y desarrollo del proyecto final (React, TypeScript, Zustand, TanStack Query, Zod, Astro).
   - **Explicación:** Define y estructura tu proyecto final integrando todo lo aprendido, desde el diseño hasta la funcionalidad y despliegue.
 
-- **Día 96-100:** Desarrollo del proyecto final.
+- **Día 104-108:** Desarrollo y pruebas del proyecto final.
   - **Explicación:** Dedica estos días al desarrollo del proyecto final, aplicando las mejores prácticas de desarrollo, optimización, y testing.
 
-- **Día 101:** Documentación y reflexión final.
-  - **Explicación:** Documenta tu proyecto, reflexiona sobre lo aprendido y considera las áreas en las que podrías seguir mejorando.
+- **Día 109-111:** Documentación y despliegue del proyecto final.
+  - **Explicación:** Documenta tu proyecto, realiza los ajustes finales y despliega tu proyecto en una plataforma como Vercel o Netlify.
